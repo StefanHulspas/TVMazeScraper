@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "5KMfIu9a5soMUdXWaD+VMXTzuICRBoXTprNij2dN4a/tVU2zCvyoXCjopeqXrlqURIBGvsdWjYNUBMGbYsFV9A==",
+  "dgSpecHash": "4jDlkfkxFOuAvr/MXGHFMKICFALBxwo071khECST11IgntTzrd4GiC5jN4ZYPtvtTgleyKJOG19PrpcqDjfKYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stefan\\source\\repos\\TVMazeScraper\\TVMazeScraper\\TVMazeScraper.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Stefan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Stefan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Stefan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.1\\swashbuckle.aspnetcore.6.1.1.nupkg.sha512",
+    "C:\\Users\\Stefan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.1\\swashbuckle.aspnetcore.swagger.6.1.1.nupkg.sha512",
+    "C:\\Users\\Stefan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.1\\swashbuckle.aspnetcore.swaggergen.6.1.1.nupkg.sha512",
+    "C:\\Users\\Stefan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.1\\swashbuckle.aspnetcore.swaggerui.6.1.1.nupkg.sha512"
+  ],
   "logs": []
 }
