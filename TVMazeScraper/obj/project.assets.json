@@ -970,23 +970,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stefan\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\hulsps\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\TVMazeScraper\\TVMazeScraper\\TVMazeScraper.csproj",
+      "projectUniqueName": "D:\\Projects\\Other\\Self\\TVMazeScraper\\TVMazeScraper\\TVMazeScraper.csproj",
       "projectName": "TVMazeScraper",
-      "projectPath": "C:\\Users\\Stefan\\source\\repos\\TVMazeScraper\\TVMazeScraper\\TVMazeScraper.csproj",
-      "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stefan\\source\\repos\\TVMazeScraper\\TVMazeScraper\\obj\\",
+      "projectPath": "D:\\Projects\\Other\\Self\\TVMazeScraper\\TVMazeScraper\\TVMazeScraper.csproj",
+      "packagesPath": "C:\\Users\\hulsps\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Other\\Self\\TVMazeScraper\\TVMazeScraper\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hulsps\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -7,7 +7,9 @@
 		public const string Base = Root + "/" + Version;
 
 		public static class Shows {
-			public const string GetPage = Base + "/shows";
+			
+			public const string GetFirstPage = Base + "/shows";
+			public const string GetPage = Base + "/shows/{pageNR}";
 		}
 	}
 }
