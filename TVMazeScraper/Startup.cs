@@ -8,7 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TVMazeScraper.Data;
 using TVMazeScraper.Options;
+using TVMazeScraper.Services;
 
 namespace TVMazeScraper
 {
@@ -25,6 +27,8 @@ namespace TVMazeScraper
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllersWithViews();
+			services.AddSingleton<DataContext, DataContext>();
+			services.AddSingleton<IShowService, ShowService>();
 			services.AddSwaggerGen(x => {
 				x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "TVMazeScraper API", Version = "v1"});
 			});
