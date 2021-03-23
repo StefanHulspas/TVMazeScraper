@@ -7,18 +7,29 @@ namespace TVMazeScraper.Controllers.V1
 	public class ShowController : Controller
 	{
 
-		private readonly IShowService showService;
+		private readonly IShowService _showService;
 
-		[HttpGet(ApiRoutes.Shows.GetFirstPage)]
-		public IActionResult GetFirstPage()
+		public ShowController(IShowService showService)
 		{
-			return Ok(showService.GetShowsForPageAsync(0));
+			_showService = showService;
+		}
+
+		[HttpGet(ApiRoutes.Shows.GetDefaultPage)]
+		public IActionResult GetDefaultPage()
+		{
+			return GetPage(0);
 		}
 		
 		[HttpGet(ApiRoutes.Shows.GetPage)]
 		public IActionResult GetPage([FromRoute]int pageNr)
 		{
-			return Ok(showService.GetShowsForPageAsync(pageNr));
+			return Ok(_showService.GetShowsForPageAsync(pageNr));
+		}
+		
+		[HttpGet(ApiRoutes.Shows.GetShowPagesSaved)]
+		public IActionResult GetShowPagesSaved()
+		{
+			return Ok($"Show pages saved: {_showService.GetShowPagesSaved()}");
 		}
 	}
 }

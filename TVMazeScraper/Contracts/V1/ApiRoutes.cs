@@ -8,8 +8,9 @@
 
 		public static class Shows {
 			
-			public const string GetFirstPage = Base + "/shows";
-			public const string GetPage = Base + "/shows/{pageNR}";
+			public const string GetDefaultPage = Base + "/shows";
+			public const string GetPage = Base + "/shows/{pageNr}";
+			public const string GetShowPagesSaved = Base + "/countsavedpages";
 		}
 	}
 }

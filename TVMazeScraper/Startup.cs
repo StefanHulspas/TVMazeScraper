@@ -27,7 +27,8 @@ namespace TVMazeScraper
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllersWithViews();
-			services.AddSingleton<DataContext, DataContext>();
+			var dataContext = new DataContext();
+			services.AddSingleton(dataContext);
 			services.AddSingleton<IShowService, ShowService>();
 			services.AddSwaggerGen(x => {
 				x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "TVMazeScraper API", Version = "v1"});

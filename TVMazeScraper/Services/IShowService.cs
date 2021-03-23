@@ -6,6 +6,7 @@ namespace TVMazeScraper.Services
 {
 	public interface IShowService
 	{
-		public Task<List<Show>> GetShowsForPageAsync(int pageNr);
+		public List<Show> GetShowsForPageAsync(int pageNr);
+		public int GetShowPagesSaved();
 	}
 }
