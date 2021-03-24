@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\hulsps\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\hulsps\\.nuget\\packages"
-    ]
-  }
-}
